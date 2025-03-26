@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOGO Discount</title>
+    <title>BOGO Discount Invoice Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <div class="bogo-text">YAY! It's BOGO</div>
-
-
-        <!----First Unit Box Start-->
+        <!----main heading-->
+        <h2 class="bogo-text">YAY! It's BOGO</h2>
+        <!----1 Unit Box Start-->
         <div class="pricing_box">
             <div class="left_section">
                 <div class="radio_btn"></div>
@@ -29,21 +28,17 @@
         </div>
         <!----1 Unit Box END-->
 
-
-
-
         <!----2 Unit Box start-->
         <div class="card">
             <div class="most_popular">MOST POPULAR</div>
             <div class="unit_second">
-                <input type="radio"> 
+                <input type="radio">
                 <span>2 Unit</span>
                 <span class="discount_first_unit">20% Off</span>
             </div>
             <div class="price_18">$18.00 USD </div>
             <span class="old_price_24">$24.00 USD</span>
-    
-            <div class="container_2">
+            <div class="mid_container">
                 <div class="row">
                     <label>Size</label>
                     <label>Colour</label>
@@ -69,18 +64,9 @@
             </div>
         </div>
         <!----2 Unit Box end-->
-  
 
-
-
-
-
-
-
-
-
-<!----3 Unit Box start-->
-        <div class="option">
+        <!----3 Unit Box Start-->
+        <div class="third_unit">
             <div class="left unit">
                 <input type="radio" name="option">
                 <span>3 Unit</span>
@@ -91,16 +77,20 @@
                 <div class="old">$24.00 USD</div>
             </div>
         </div>
-        <div class="price_section">
-            <span class="free_delivery">Free Delivery</span>
-            <span class="total_price">Total : $18.00 USD</span>
+        <!----3 Unit Box Start-->
+
+        <!----Add to cart Box start-->
+        <div class="add_to_cart_div">
+            <div class="price_section">
+                <span class="free_delivery">Free Delivery</span>
+                <span class="total_price">Total : $18.00 USD</span>
+            </div>
+            <button class="add_to_cart">
+                <span>+</span> Add to Cart
+            </button>
+            <p class="powered_by"> @ Powered by Pumper </p>
         </div>
-        <button class="add_to_cart">
-            <span>+</span> Add to Cart
-        </button>
-        <p class="powered_by"> @ Powered by Pumper </p>
-        
-        
+        <!----Add to cart Box end-->
     </div>
     <script src="script.js"></script>
 </body>
