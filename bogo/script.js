@@ -22,10 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 .expanded .card {
                     width: 100% !important;
                     max-width: 341px !important;
-                    background: white;
+                    background: #FFF9FA;
                     padding: 20px;
                     border-radius: 4px;
-                    border: 0.9px solid #C8C8C8;
+                    border: 0.9px solid #FF6B82;
                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
                     transition: all 0.3s ease-in-out;
                     margin-right:20px;
